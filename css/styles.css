@@ -70,7 +70,7 @@ ul li {
     transition: all .2s linear
 }
 
-.bottone1:hover {
+.bottone1:hover,.bottone4 button:hover {
     background-color: #244b8b
 }
 
@@ -92,6 +92,10 @@ ul li {
     padding-right: 100px
 }
 
+.tuttosezione2 {
+    margin-bottom: 150px
+}
+
 .immaginisection2,.section2 {
     display: flex;
     justify-content: center
@@ -99,7 +103,7 @@ ul li {
 
 .section2 {
     align-items: center;
-    height: 100px
+    height: 200px
 }
 
 .immaginisection2 {
@@ -122,4 +126,83 @@ ul li {
 .immagine1 img,.immagine2 img,.immagine3 img,.immagine4 img {
     display: flex;
     margin: 0 auto
+}
+
+#tuttoquarta,.section3 {
+    display: flex;
+    justify-content: center
+}
+
+.section3 {
+    flex-direction: column;
+    background-color: #e5e7eb;
+    text-align: center
+}
+
+.citazione {
+    margin-top: 200px;
+    margin-bottom: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #505152
+}
+
+.credito {
+    padding-top: 40px;
+    padding-left: 800px;
+    flex-basis: 200px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.credito::before {
+    content: "— "
+}
+
+.bottone4 button,.fourthsec {
+    display: flex;
+    background-color: #3882f6
+}
+
+.fourthsec {
+    width: 900px;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 150px;
+    border-radius: 10px
+}
+
+#tuttoquarta {
+    align-items: center
+}
+
+.bottone4 button {
+    border: 2px solid #fff;
+    padding: 7px 25px;
+    border-radius: 8px;
+    font-weight: bolder;
+    flex: 2;
+    transition: all .3s linear;
+    font-size: 15px
+}
+
+.scritta {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    flex: 1
+}
+
+.footer
+{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
 }
